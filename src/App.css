@@ -412,12 +412,12 @@ header h1 {
 }
 
 footer {
-	background: #1f1f1f;
+	background: #d7caaa;
 	min-height: 100px;
 	width: 100%;
 	overflow: hidden;
 	font-size: 14px;
-	color: white;
+	color: black;
 	position: relative;
 	text-align: center;
 }
