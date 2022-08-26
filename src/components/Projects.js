@@ -21,9 +21,8 @@ export default function Projects() {
 					<span className='portfolio-item d-block'>
 						<div className='foto'>
 							<div
-								style={{ cursor: 'pointer' }}
+								style={{ cursor: 'pointer', marginRight: '5%' }}
 								onClick={goToProject1}
-								className='margin'
 							>
 								<img
 									src='https://oneneighborhoodbuilders.org/wp-content/uploads/2017/11/placeholder-profile-male-500x500.png'
@@ -39,11 +38,7 @@ export default function Projects() {
 								<br />
 								<p className='project-title-settings mt-3'>Title</p>
 							</div>
-							<div
-								style={{ cursor: 'pointer' }}
-								onClick={goToProject2}
-								className='margin'
-							>
+							<div style={{ cursor: 'pointer' }} onClick={goToProject2}>
 								<img
 									src='https://oneneighborhoodbuilders.org/wp-content/uploads/2017/11/placeholder-profile-male-500x500.png'
 									alt='projectImages'
