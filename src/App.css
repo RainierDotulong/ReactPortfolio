@@ -343,6 +343,14 @@ header h1 {
 	background: #efe1bd;
 	padding-bottom: 5%;
 }
+#portfolio h1 {
+	padding-top: 5%;
+	font: 18px/24px 'opensans-bold', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: black;
+	text-align: center;
+}
 
 .portfolio-item {
 	max-width: 100%;
@@ -427,4 +435,7 @@ footer a:focus {
 .social-links {
 	margin-top: 50px;
 	font-size: 22px;
+}
+.margin {
+	margin: 5%;
 }
